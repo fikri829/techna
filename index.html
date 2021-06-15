@@ -1,0 +1,442 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/Untitled2.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/wb.carousel.effects.min.js"></script>
+<script src="js/wwb16.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_Text1').addClass('visibility-hidden');
+   $('#Button1').addClass('visibility-hidden');
+   $('#Button2').addClass('visibility-hidden');
+   $('#wb_Text4').addClass('visibility-hidden');
+   $('#wb_Image3').addClass('visibility-hidden');
+   $('#wb_Image4').addClass('visibility-hidden');
+   $('#wb_Image5').addClass('visibility-hidden');
+   $('#wb_Text5').addClass('visibility-hidden');
+   $('#wb_Text6').addClass('visibility-hidden');
+   $('#wb_Text7').addClass('visibility-hidden');
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'fade',
+      direction: '',
+      pagination: true,
+      pagination_img_default: 'images/Carousel1-default.png',
+      pagination_img_active: 'images/Carousel1-active.png',
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").carouseleffects(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carouseleffects('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carouseleffects('next');
+   });
+   function onScrollText1()
+   {
+      var $obj = $("#wb_Text1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text1', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text1').inViewPort(true))
+   {
+      $('#wb_Text1').addClass("in-viewport");
+   }
+   onScrollText1();
+   $(window).scroll(function(event)
+   {
+      onScrollText1();
+   });
+   function onScrollButton1()
+   {
+      var $obj = $("#Button1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('Button1', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('Button1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#Button1').inViewPort(true))
+   {
+      $('#Button1').addClass("in-viewport");
+   }
+   onScrollButton1();
+   $(window).scroll(function(event)
+   {
+      onScrollButton1();
+   });
+   function onScrollButton2()
+   {
+      var $obj = $("#Button2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('Button2', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('Button2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#Button2').inViewPort(true))
+   {
+      $('#Button2').addClass("in-viewport");
+   }
+   onScrollButton2();
+   $(window).scroll(function(event)
+   {
+      onScrollButton2();
+   });
+   function onScrollText4()
+   {
+      var $obj = $("#wb_Text4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text4').inViewPort(true))
+   {
+      $('#wb_Text4').addClass("in-viewport");
+   }
+   onScrollText4();
+   $(window).scroll(function(event)
+   {
+      onScrollText4();
+   });
+   function onScrollImage3()
+   {
+      var $obj = $("#wb_Image3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image3', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image3').inViewPort(true))
+   {
+      $('#wb_Image3').addClass("in-viewport");
+   }
+   onScrollImage3();
+   $(window).scroll(function(event)
+   {
+      onScrollImage3();
+   });
+   function onScrollImage4()
+   {
+      var $obj = $("#wb_Image4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image4', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image4').inViewPort(true))
+   {
+      $('#wb_Image4').addClass("in-viewport");
+   }
+   onScrollImage4();
+   $(window).scroll(function(event)
+   {
+      onScrollImage4();
+   });
+   function onScrollImage5()
+   {
+      var $obj = $("#wb_Image5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image5', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image5', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image5').inViewPort(true))
+   {
+      $('#wb_Image5').addClass("in-viewport");
+   }
+   onScrollImage5();
+   $(window).scroll(function(event)
+   {
+      onScrollImage5();
+   });
+   function onScrollText5()
+   {
+      var $obj = $("#wb_Text5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text5', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text5', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text5').inViewPort(true))
+   {
+      $('#wb_Text5').addClass("in-viewport");
+   }
+   onScrollText5();
+   $(window).scroll(function(event)
+   {
+      onScrollText5();
+   });
+   function onScrollText6()
+   {
+      var $obj = $("#wb_Text6");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text6', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text6', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text6').inViewPort(true))
+   {
+      $('#wb_Text6').addClass("in-viewport");
+   }
+   onScrollText6();
+   $(window).scroll(function(event)
+   {
+      onScrollText6();
+   });
+   function onScrollText7()
+   {
+      var $obj = $("#wb_Text7");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text7', 'animate-fade-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text7', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text7').inViewPort(true))
+   {
+      $('#wb_Text7').addClass("in-viewport");
+   }
+   onScrollText7();
+   $(window).scroll(function(event)
+   {
+      onScrollText7();
+   });
+});
+</script>
+</head>
+<body>
+<div id="space"><br></div>
+<div id="container">
+<div id="wb_Shape3" style="position:absolute;left:0px;top:0px;width:1900px;height:1319px;opacity:0.70;z-index:9;">
+<img src="images/img0003.png" id="Shape3" alt="" style="width:1900px;height:1319px;"></div>
+<div id="wb_Shape1" style="position:absolute;left:0px;top:534px;width:1900px;height:118px;opacity:0.60;z-index:10;">
+<img src="images/img0001.png" id="Shape1" alt="" style="width:1900px;height:118px;"></div>
+<div id="wb_Carousel1" style="position:absolute;left:0px;top:976px;width:1900px;height:343px;z-index:11;overflow:hidden;">
+<div id="Carousel1" style="position:absolute;">
+<div class="frame frame-1">
+</div>
+<div class="frame frame-2" style="display:none">
+</div>
+<div class="frame frame-3" style="display:none">
+</div>
+</div>
+<div id="Carousel1_back"><a class="carousel-control-prev" role="button"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a></div>
+<div id="Carousel1_next"><a class="carousel-control-next" role="button"><span class="carousel-control-next-icon" aria-hidden="true"></span></a></div>
+</div>
+<div id="wb_ResponsiveMenu1" style="position:absolute;left:0px;top:0px;width:1900px;height:95px;z-index:12;">
+<label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Menu<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+<input type="checkbox" id="ResponsiveMenu1-submenu">
+<ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+<li><a role="menuitem" href=""><i class="fa fa-home fa-2x">&nbsp;</i><br>Home</a></li>
+<li><a role="menuitem" href="" title="Log In"><i class="fa fa-user fa-2x">&nbsp;</i><br>Log&nbsp;In</a></li>
+<li><a role="menuitem" href=""><i class="fa fa-sticky-note-o fa-2x">&nbsp;</i><br>Register</a></li>
+<li>
+<label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-book fa-2x">&nbsp;</i>Technanician<b class="arrow-down"></b></label>
+<a role="menuitem" href="javascript:void(0)"><i class="fa fa-book fa-2x">&nbsp;</i><br>Technanician<b class="arrow-down"></b></a>
+<input type="checkbox" id="ResponsiveMenu1-submenu-0">
+<ul role="menu">
+<li>
+<label for="ResponsiveMenu1-submenu-1" class="toggle"><i class="fa fa-eye fa-2x">&nbsp;</i>Login<b class="arrow-down"></b></label>
+<a role="menuitem" href="./technician_login.html"><i class="fa fa-eye fa-2x">&nbsp;</i>Login<b class="arrow-left"></b></a
+<br>About</a></li>
+</ul>
+</div>
+<div id="wb_Text1" style="position:absolute;left:123px;top:564px;width:1656px;height:58px;text-align:justify;z-index:13;">
+<span style="color:#FFFFFF;">'Techna is a platform where repairings made easier for you to request a repair with a tip of your finger. We provides every aspects of technical issues in computers and laptops. Transactions can be available online and physically and charges may differ in selections of request that you want, fair price.'</span></div>
+<a id="Button1" href="./user_login.html" style="position:absolute;left:897px;top:437px;width:229px;height:70px;z-index:14;">Sign In</a>
+<a id="Button2" href="./user_register.html" style="position:absolute;left:1193px;top:437px;width:229px;height:70px;z-index:15;">Sign Up</a>
+<div id="wb_Text4" style="position:absolute;left:1px;top:666px;width:1900px;height:45px;text-align:center;z-index:16;">
+<span style="color:#FFFFFF;">Why use our service?</span></div>
+<div id="wb_Image3" style="position:absolute;left:517px;top:740px;width:81px;height:81px;z-index:17;">
+<img src="images/check-availability-icon-grey.png" id="Image3" alt=""></div>
+<div id="wb_Image4" style="position:absolute;left:909px;top:741px;width:81px;height:81px;z-index:18;">
+<img src="images/check-availability-icon-grey.png" id="Image4" alt=""></div>
+<div id="wb_Image5" style="position:absolute;left:1303px;top:741px;width:81px;height:81px;z-index:19;">
+<img src="images/check-availability-icon-grey.png" id="Image5" alt=""></div>
+<div id="wb_Text5" style="position:absolute;left:409px;top:851px;width:297px;height:35px;text-align:center;z-index:20;">
+<span style="color:#FFFFFF;">Available 24/7</span></div>
+<div id="wb_Text6" style="position:absolute;left:802px;top:851px;width:297px;height:77px;text-align:center;z-index:21;">
+<span style="color:#FFFFFF;">Contactless<br>Payment</span></div>
+<div id="wb_Text7" style="position:absolute;left:1195px;top:852px;width:297px;height:38px;text-align:center;z-index:22;">
+<span style="color:#FFFFFF;">Fast and Reliable</span></div>
+<a href="./index.html"><img src="images/img0006.png" id="MergedObject1" alt="" title="" style="border-width:0;position:absolute;left:546px;top:109px;width:839px;height:300px;z-index:23"></a>
+</div>
+<div id="wb_links">
+<div id="links-overlay"></div>
+<div id="links">
+<div class="row">
+<div class="col-1">
+<div id="wb_linksText1">
+<span style="color:#FFFFFF;"><strong>Navigate</strong></span>
+</div>
+<div id="wb_linksMenu1" style="display:inline-block;width:100%;z-index:1;">
+<ul id="linksMenu1" role="menubar" class="nav">
+<li class="nav-item firstmain"><a role="menuitem" class="nav-link" href="" target="_self">Home</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="" target="_self">About</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="" target="_self">Services</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="" target="_self">Products</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_linksText2">
+<span style="color:#FFFFFF;"><strong>Support</strong></span>
+</div>
+<div id="wb_linksMenu2" style="display:inline-block;width:100%;z-index:3;">
+<ul id="linksMenu2" role="menubar" class="nav">
+<li class="nav-item firstmain"><a role="menuitem" class="nav-link" href="#" target="_self">FAQ</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#" target="_self">Knowledge&nbsp;Base</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#" target="_self">Community&nbsp;Forum</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#" target="_self">Video&nbsp;Tutorials</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_linksText3">
+<span style="color:#FFFFFF;"><strong>Follow Us</strong></span>
+</div>
+<div id="wb_linksMenu3" style="display:inline-block;width:100%;z-index:5;">
+<ul id="linksMenu3" role="menubar" class="nav">
+<li class="nav-item firstmain"><a role="menuitem" class="nav-link" href="" target="_self">Facebook</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="" target="_self">Instagram</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="" target="_self">Twitter</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="" target="_self">YouTube</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div class="col-4">
+<div id="wb_linksText4">
+<span style="color:#FFFFFF;"><strong>Company</strong></span>
+</div>
+<div id="wb_linksMenu4" style="display:inline-block;width:100%;z-index:7;">
+<ul id="linksMenu4" role="menubar" class="nav">
+<li class="nav-item firstmain"><a role="menuitem" class="nav-link" href="#" target="_self">About</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#" target="_self">Careers</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#" target="_self">Press&nbsp;Kit</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#" target="_self">Contact</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_footer">
+<div id="footer">
+<div class="row">
+<div class="col-1">
+<div id="wb_footerText">
+<span style="color:#787878;">Copyright © 2020 TECHNA FIKRI ARIF BIN AZMAN</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
