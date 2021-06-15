@@ -1,0 +1,177 @@
+body {
+    background-image: linear-gradient(#000000, #090909, #131313, #1A1A1A 100%);
+    color: blanchedalmond;
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.navbar{
+display: block;
+    text-align: center;
+    float: left;
+  padding: 0.4em;
+    margin: 0;
+}
+
+ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#homewelcome {
+    font-family: 'Comic Sans';
+    margin-right: 20px;
+    padding: 0;
+    align-content: center;
+}
+li  {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.lalala  {
+  align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    
+}
+
+.MiddleSection  {
+    display: flex;
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 100vh;
+}
+
+.MiddleSection2  {
+    display: flex;
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h2.logobuild {
+font-family: 'Dead revolution';
+font-size: 66px;
+margin-top: auto;
+margin-bottom: auto;
+}
+h2.logobuild {
+font-family: 'Dead revolution';
+font-size: 66px;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+div.form {
+    margin-left: 110px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+button {
+    float: right;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 5px 5px 5px;
+    color: white;
+    background-image: linear-gradient(#000000, #090909, #131313, #1A1A1A 100%);
+    cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.footer h2 {
+    padding: 1%;
+    text-align: center;
+}
+
+.footer h3 {
+    padding: 1%;
+    text-align: center;
+}
+
+.content {
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+
+@font-face {
+    font-family: 'Dead revolution';
+    src: url('./font/Dead Revolution.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Sans';
+    src: url('./font/theboldfont.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
